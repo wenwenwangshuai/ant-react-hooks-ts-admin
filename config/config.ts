@@ -134,6 +134,7 @@ export default {
   manifest: {
     basePath: '/',
   },
+  publicPath: '/ant-react-hooks-ts-admin/',
   // chainWebpack: webpackPlugin,
   // proxy: {
   //   '/server/api/': {
