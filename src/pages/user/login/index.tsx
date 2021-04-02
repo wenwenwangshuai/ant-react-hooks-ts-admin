@@ -85,7 +85,7 @@ class Login extends Component<LoginProps, LoginState> {
       >
         <UserName
           name="userName"
-          placeholder="用户名"
+          placeholder="用户名（任意输入）"
           rules={[
             {
               required: true,
@@ -95,7 +95,7 @@ class Login extends Component<LoginProps, LoginState> {
         />
         <Password
           name="password"
-          placeholder="密码"
+          placeholder="密码（任意输入）"
           rules={[
             {
               required: true,
