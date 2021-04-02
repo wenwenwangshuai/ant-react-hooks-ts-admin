@@ -1,33 +1,18 @@
 # 前端小江湖
 
-[预览地址]()
+### 基于[Ant Design of React](https://ant.design/components/overview-cn/)开发，采用hooks+ts进行书写，集合了菜单权限、页面书签等比较常用的功能，方便快捷，直接进行业务开发！！！
 
-```bash
-# 开发环境
+[预览地址](https://wenwenwangshuai.github.io/ant-react-hooks-ts-admin/)
+
+### 命令行
+
+```部署
+# 本地启动
+npm run dev
+
+# 测试环境环境
 npm run build:dev
 
 # 生产环境
 npm run build:master
 ```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
