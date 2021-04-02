@@ -1,0 +1,45 @@
+@import '~antd/es/style/themes/default.less';
+
+.loginFormMain {
+  width: 300px;
+  height: 250px;
+  :global .ant-form-item {
+    margin: 0 0 20px 0;
+  }
+  :global .ant-legacy-form-item:nth-child(2) {
+    margin: 0 0 6px 0;
+  }
+  :global .ant-input {
+    padding-left: 15px !important;
+    color: #666;
+    font-size: 14px;
+    // border: none;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+  }
+  :global .prefixIcon {
+    font-size: 16px;
+  }
+  .login .submit {
+    margin-top: 10px;
+  }
+}
+
+.loginSelectRoleInput {
+  width: 100%;
+}
+
+.loginSelectRoleBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+
+  :global .ant-btn-default {
+    width: 35%;
+  }
+
+  :global .ant-btn-primary {
+    width: 60%;
+  }
+}

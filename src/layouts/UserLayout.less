@@ -1,0 +1,61 @@
+@import '~antd/es/style/themes/default.less';
+
+.loginMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.loginContent {
+  display: flex;
+  align-items: center;
+  width: 800px;
+  padding: 20px 0;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 35px -5px, rgba(0, 0, 0, 0.1) 0 15px 15px -8px;
+}
+
+.loginLeft {
+  width: 450px;
+  text-align: center;
+  img {
+    width: 300px;
+  }
+}
+
+.loginRight {
+  flex: 1;
+}
+
+.loginRightHeader {
+  margin-bottom: 50px;
+}
+
+.loginRightH1 {
+  color: #333;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.loginRightH2 {
+  color: #a9a9a9;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.loginRightFooter {
+  :global .ant-layout-footer {
+    background-color: transparent;
+  }
+  :global .ant-pro-global-footer {
+    margin: 10px 0 0 0;
+    padding: 0;
+    text-align: left;
+  }
+  :global .ant-pro-global-footer-copyright {
+    font-size: 12px !important;
+  }
+}

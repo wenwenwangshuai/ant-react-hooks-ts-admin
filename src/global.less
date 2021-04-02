@@ -1,0 +1,127 @@
+@import '~antd/es/style/themes/default.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// 兼容IE11
+@media screen and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .ant-design-pro > .ant-layout {
+    min-height: 100vh;
+  }
+}
+
+.ant-pro-basicLayout-content,
+.ant-pro-page-header-wrap {
+  margin: 0 !important;
+}
+
+// 全局容器样式统一
+.pageMain {
+  padding: 15px;
+  color: #333;
+  background: #fff;
+}
+
+// 页面容器统一边距
+.ant-pro-page-header-wrap-children-content {
+  margin: 14px !important;
+}
+
+// 查询重置按钮统一样式
+.searchBtnList {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: right;
+
+  &.putAwayfalse {
+    .searchBtnMain {
+      position: absolute;
+      top: -46px;
+      right: 0;
+    }
+  }
+
+  button {
+    margin-left: 10px;
+  }
+
+  a {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}
+
+.searchFormContainer {
+  .ant-form-item {
+    margin-bottom: 14px;
+  }
+}
+
+.putAwayfalse {
+  &.topRow4,
+  &.topRow8,
+  &.topRow12,
+  &.topRow16 {
+    .searchBtnMain {
+      position: relative;
+      top: 0;
+    }
+  }
+}
+
+.putAwaytrue {
+  .searchBtnMain {
+    position: absolute;
+    top: -46px;
+    right: 0;
+  }
+}
+
+.ant-switch-inner {
+  margin: 0 6px 0 24px;
+}
